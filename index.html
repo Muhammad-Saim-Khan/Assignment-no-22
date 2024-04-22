@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <input class="input" type="text" id="result" />
+      <div class="kyes">
+        <button class="btn" onclick="display('%')">%</button>
+        <button class="btn" onclick="root()">√</button>
+        <button class="btn" onclick="Back()">CE</button>
+        <button class="btn1" onclick="clearScreen()" id="btn">C</button>
+      </div>
+      <div class="kyes">
+        <button class="btns" onclick="display(7)">7</button>
+        <button class="btns" onclick="display(8)">8</button>
+        <button class="btns" onclick="display(9)">9</button>
+        <button class="btns1" onclick="display('-')">-</button>
+      </div>
+      <div class="kyes">
+        <button class="btns" onclick="display(4)">4</button>
+        <button class="btns" onclick="display(5)">5</button>
+        <button class="btns" onclick="display(6)">6</button>
+        <button class="btn2" onclick="display('/')">÷</button>
+      </div>
+      <div class="kyes">
+        <button class="btns" onclick="display(1)">1</button>
+        <button class="btns" onclick="display(2)">2</button>
+        <button class="btns" onclick="display(3)">3</button>
+        <button class="btn3" onclick="display('*')">x</button>
+      </div>
+      <div class="kyes">
+        <button class="btns" onclick="display('.')">.</button>
+        <button class="btns" onclick="display(0)">0</button>
+        <button class="btn" onclick="calculate()" id="btn">=</button>
+        <button class="btn4" onclick="display('+')">+</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

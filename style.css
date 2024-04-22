@@ -1,0 +1,114 @@
+* {
+  padding: 0%;
+  margin: 0;
+  background-color: #f0f3fc;
+}
+.main {
+  margin: 50px auto;
+  width: 280px;
+  padding: 2%;
+  border-radius: 35px;
+  border: 1px solid rgb(225, 225, 225);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input {
+  width: 100%;
+  height: 55px;
+  border-radius: 55px;
+  border: none;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  /* border: 2px solid red; */
+  background-color: #2288ff;
+}
+.kyes {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+.btn {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: x-large;
+  background-color: #f5f7ff;
+  border: 1px solid rgb(179, 179, 179);
+}
+.btn1 {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  height: 60px;
+  color: white;
+  border-radius: 50%;
+  font-size: x-large;
+  background-color: #1d2953;
+  border: 1px solid rgb(179, 179, 179);
+}
+.btns {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  color: #3c3c3c;
+  height: 60px;
+  border-radius: 50%;
+  font-size: x-large;
+  background-color: #d8ddf0;
+  border: 1px solid rgb(179, 179, 179);
+}
+.btns1 {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  height: 60px;
+  color: white;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: #ff435a;
+  border: 1px solid rgb(179, 179, 179);
+}
+.btn2 {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  height: 60px;
+  color: white;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: #2288ff;
+  border: 1px solid rgb(179, 179, 179);
+}
+.btn3 {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  height: 60px;
+  color: white;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: #ffc804;
+  border: 1px solid rgb(179, 179, 179);
+}
+.btn4 {
+  font-weight: bold;
+  margin-top: 15px;
+  width: 65px;
+  height: 60px;
+  color: white;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: #63de77;
+  border: 1px solid rgb(179, 179, 179);
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    overflow: hidden;
+    padding: 10% 5%;
+  }
+}
